@@ -1,0 +1,1 @@
+const session = localStorage.getItem('session');

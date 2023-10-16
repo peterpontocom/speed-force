@@ -1,0 +1,36 @@
+body {
+  background-image: url("../assets/wallpaper/wallpaper-14.jpg");
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 0;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 6rem;
+}
+
+.container ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  color: #1f1f1f;
+  background-color: #fafafa;
+  border-radius: 0.5rem;
+  width: 20rem;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: "Poppins-Regular", "Helvetica Neue", Helvetica, Arial;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+:root {
+  --red: #f8123b;
+  --roxo: #AD00FF;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 1.6rem;
+}
+
+.camada-de-fundo-preto {
+  position: absolute;
+  background-color: #00000088;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
